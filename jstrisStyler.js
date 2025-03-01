@@ -22,14 +22,23 @@
 
           #gameFrame.center-board  #main {
               float: none;
+          }`
+    },
+    {
+      label: "HidePlayers",
+      styles: `
+          #gameFrame.hide-players  #gameSlots {
+              display: none;
+          }`
+    },
+    {
+      label: "HideChat",
+      styles: `
+          #gameFrame.hide-chat  #chatInputArea {
+              display: none;
           }
 
-          #gameFrame.center-board  #players {
-              float: none;
-              /* display: flex; */
-          }
-
-          #gameFrame.center-board  #gameSlots {
+          #gameFrame.hide-chat  .chatArea {
               display: none;
           }`
     },
@@ -51,6 +60,22 @@
 
     uncenterBoard: () => {
       document.querySelector("#gameFrame")?.classList.remove("center-board")
+    },
+
+    hidePlayers: () => {
+        document.querySelector("#gameFrame")?.classList.add("hide-players")
+    },
+
+    showPlayers: () => {
+        document.querySelector("#gameFrame")?.classList.remove("hide-players")
+    },
+
+    hideChat: () => {
+        document.querySelector("#gameFrame")?.classList.add("hide-chat")
+    },
+
+    showChat: () => {
+        document.querySelector("#gameFrame")?.classList.remove("hide-chat")
     },
 
     hidePreviews: (numberOfPreviews = 0) => {
@@ -120,7 +145,7 @@
         // Set a timeout to refocus the input field after a short delay
         // I think jstris has a listener on the whole damn doc that focuses on chat
         setTimeout(() => {
-            target.focus(); 
+            target.focus();
         }, 20);  // 20ms delay to allow any other script to complete first
       }
     })
