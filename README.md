@@ -1,22 +1,16 @@
 # TossedBloom's JStris custom styling
+Simple QOL styling for JStris
 
-Here are some basic QOL stylings for JStris (
+## Features
+1. Centering board
+2. Hide other players
+3. Hide chat
+4. Toggle the amount of previews shown on queue
 
 ## How to use
 1. Install TamperMonkey
-2. Create a userscript and copy paste the jstrisStyler.js into the script
+2. Create a userscript and copy paste script.js file
 3. Remember to enable developer mode when using Chrome (in manage extensions page)
-4. Run jstris, there will be a random inputbox below, type in the corresponding commands
-
-### Command List
-1. centerBoard
-2. uncenterBoard
-3. hidePlayers
-4. showPlayers
-5. hideChat
-6. showChat
-7. hidePreviews (by default shows all)
-8. hidePreviews1 (hide 1 preview, accepts numbers from 0-5)
-
-### Additional Info
-This was done in about 2 hours or something, so expect it to be scuffed. Feel free to change the TamperScript URL matches so it doesn't affect all pages.
+4. Run jstris, you should be able to see the TossedBloom logo
+5. Click to open the submenu
+   ![image](https://github.com/user-attachments/assets/26bd36a9-ce4f-4674-9b3f-05a263d62960)
