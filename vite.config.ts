@@ -5,7 +5,7 @@ export default defineConfig({
     minify: "esbuild", // Minify the output using esbuild (default behavior)
     outDir: "dist", // Output directory
     rollupOptions: {
-      input: "./init.ts", // Entry file
+      input: "./src/init.ts", // Entry file
     },
   },
 });
