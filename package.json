@@ -1,9 +1,11 @@
 {
   "devDependencies": {
     "typescript": "^5.8.3",
-    "vite": "^6.2.5"
+    "vite": "^6.2.5",
+    "cross-env": "^7.0.3"
   },
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "build:minify": "cross-env MINIFY=true vite build"
   }
 }
