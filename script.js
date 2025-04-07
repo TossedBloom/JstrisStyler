@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TossedBloom's JStris custom style
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.01
 // @description  TossedBloom JStris styles
 // @author       TossedBloom
 // @match        https://jstris.jezevec10.com/
