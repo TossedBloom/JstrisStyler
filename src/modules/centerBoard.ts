@@ -21,7 +21,6 @@ listItem.setAttribute(
 );
 
 listItem.addEventListener("click", () => {
-  console.log("clicked");
   centerBoard.handler();
 });
 

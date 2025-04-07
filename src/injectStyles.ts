@@ -109,5 +109,3 @@ cssList.forEach((style) => {
   }
 });
 document.head.appendChild(styleEl);
-
-console.log("Already appended style");

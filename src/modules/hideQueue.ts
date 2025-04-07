@@ -9,7 +9,6 @@ const hideQueue = {
 
     el.style.top = previewCoverElDimensions[hideQueue.hidden].top;
     el.style.height = previewCoverElDimensions[hideQueue.hidden].height;
-    console.log(hideQueue.hidden);
   },
 };
 
