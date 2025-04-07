@@ -12,4 +12,5 @@ Simple QOL styling for JStris
 2. Create a userscript and copy paste script.js file
 3. Remember to enable developer mode when using Chrome (in manage extensions page)
 4. Run jstris, you should be able to see the TossedBloom logo
+5. Click to open the submenu
    ![image](https://github.com/user-attachments/assets/26bd36a9-ce4f-4674-9b3f-05a263d62960)
